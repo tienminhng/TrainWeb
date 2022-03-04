@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>MinhTien</title>
+</head>
+<body>
+    <h1>Sử dụng các thẻ HTML đã học, xây dựng khung giao diện sau</h1>
+    <div class="wrapper">
+        <h2>Dịch vụ</h2>
+        <ul>
+            <li>
+                <a href="https://www.facebook.com/"><img src="img/fb.png" width="28px" alt="logo fb"> 
+                    Đường đến Facebook</a>
+            </li>
+            <li>
+                <a href="https://www.youtube.com/"><img src="img/ytb.png" width="28px" alt="logo ytb">
+                    Đường đến Youtube</a>
+            </li>
+            <li>
+                <a href="https://www.google.com/"><img src="img/gg.png" width="28px" alt="logo gg">
+                    Đường đến Google Search</a>
+            </li>
+            <li>
+                <a href="https://www.google.com/maps"> <img src="img/map.png" width="28px" alt="logo map">
+                    Đường đến Google Map</a>
+            </li>
+        </ul>
+        <h2>Bài báo</h2>
+        <h3>Nga và U cà đánh nhau, ai sẽ nhường ai?</h3>
+        <img src="img/a1.jpg" width="600px" alt="Ảnh lính"> <br>
+        <img src="img/a2.jpg" width="600px" alt="Putin đại đế"> <br>
+        <span>Tình hình chiến sự Nga-Ukraine đang rất nóng và khó lường dù hai bên đồng ý đàm phán. 
+            Trong bối cảnh này, Báo Pháp Luật TP.HCM vừa có bài phỏng vấn TS Nikolaus Scholik (Áo) 
+            - chuyên gia về khoa học chính trị, chính trị quốc tế, chính trị an ninh, Cố vấn cao cấp tại 
+            Viện Chính sách An ninh và châu Âu của Áo....</span>
+        <a href="https://plo.vn/quoc-te/chuyen-gia-ban-ve-the-dam-phan-ngaukraine-ai-phai-nhuong-ai-1045815.html">Xem thêm</a>
+        <h3>Ca mắc mới COVID-19 tăng vọt lên 94.385 ca</h3>
+        <img src="img/a3.jpg" width="600px" alt="Ảnh covid">
+        <table border="1" >
+            <thead>
+                <tr>
+                    <th>Khu vực</th>
+                    <th>Ngày 25/02/2022</th>
+                    <th>Ngày 26/02/2022</th>
+                    <th>Ngày 27/02/2022</th>
+                    <th>Ngày 28/02/2022</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>Hà Nội</th>
+                    <td>12.000 ca <img src="img/a4.png" width="20px"> </td>
+                    <td>24.000 ca <img src="img/a4.png" width="20px"> </td>
+                    <td>34.000 ca <img src="img/a4.png" width="20px"> </td>
+                    <td>54.000 ca <img src="img/a4.png" width="20px"> </td>
+                </tr>
+                <tr>
+                    <th>Hải Phòng</th>
+                    <td>12.400 ca <img src="img/a4.png" width="20px"> </td>
+                    <td>24.600 ca <img src="img/a4.png" width="20px"> </td>
+                    <td>34.700 ca <img src="img/a4.png" width="20px"> </td>
+                    <td>54.400 ca <img src="img/a4.png" width="20px"> </td>
+                </tr>
+                <tr>
+                    <th>Nam Định</th>
+                    <td>2.000 ca <img src="img/a4.png" width="20px"> </td>
+                    <td>4.000 ca <img src="img/a4.png" width="20px"> </td>
+                    <td>5.000 ca <img src="img/a4.png" width="20px"> </td>
+                    <td>8.000 ca <img src="img/a4.png" width="20px"> </td>
+                </tr>
+            </tbody>
+        </table>
+        <span>Tính từ 16h ngày 27/02 đến 16h ngày 28/02, 
+            trên Hệ thống Quốc gia quản lý ca bệnh COVID-19 ghi nhận 94.385 ca nhiễm mới, 
+            trong đó 9 ca nhập cảnh và 94.376 ca ghi nhận trong nước (tăng 7.410 ca so với ngày trước đó) 
+            tại 61 tỉnh, thành phố (có 66.227 ca trong cộng đồng)...
+        </span>
+        <a href="https://suckhoedoisong.vn/ngay-28-2-ca-mac-moi-covid-19-lan-dau-tang-vot-len-94385-quang-ninh-bo-sung-hon-28000-f0-169220228175026217.htm">Xem thêm</a>
+        <h2>Giải trí</h2>
+        <video width="700" height="350" controls="">
+            <source src="img/vid1.mov" type="video/mp4"> 
+        </video>
+        <h2>Liên lạc</h2>
+        <form action="">
+            <label class="cl1" for="email">Email: </label>
+            <input type="text" placeholder="Nhập email" id="email" name="email"> <br>
+            <label class="cl1" for="pass">Password: </label>
+            <input type="password" placeholder="Nhập pass" id="pass" name="pass"> <br>
+            <label class="cl1" for="fullname">Họ tên: </label>
+            <input type="text" placeholder="Nhập họ tên" id="hoten" name="hoten"> <br>
+            <label class="cl1" for="age">Tuổi: </label>
+            <input type="text" placeholder="Nhập tuổi" id="age" name="age"> <br>
+            <label class="cl1 " for="">Giới tính: </label>
+            <input type="radio" id="male" name="gender">
+            <label for="male">Nam</label>
+            <input type="radio" id="female" name="gender">
+            <label for="female">Nữ</label>
+            <input type="radio" id="other" name="gender">
+            <label for="other">Khác</label> <br>
+            <label class="cl1" for="">Ngày tháng năm sinh: </label>
+            <input type="date" id="time"> <br>
+            <label class="cl1 " for="">Mức lương/tháng: </label>
+            <label for="">12k USD</label>
+            <input type="range" max="10" min="0" value="2"> 
+            <label for=""> 100k USD</label> <br>
+            <label class="cl1" for="">Màu sắc bạn yêu thích: </label>
+            <input type="color" id="color"> <br>
+            <label class="cl1" for="">Hình ảnh của bạn: </label>
+            <input type="file" id="img"> <br>
+            <button>Gửi thông tin</button>
+        </form>
+    </div>
+    
+</body>
+</html>

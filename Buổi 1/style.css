@@ -1,0 +1,43 @@
+*{
+    background-color: tan;
+}
+.wrapper{
+    width: 600px;
+    margin: 0px auto;
+    text-align: center;
+}
+h1{
+    color: aliceblue;
+    text-transform: uppercase;
+}
+h2{
+    color:chartreuse;
+    font-family: cursive;
+}
+h3{
+    color:red;
+    font-style: italic;
+    font-family: sans-serif;
+}
+table{
+    width: 600px;
+}
+ul{
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    font-weight: bold;
+}
+span{
+    color: blueviolet;
+}
+a{
+    color: blueviolet;
+}
+.cl1{
+    color: aliceblue;
+    font-style: italic;
+    font-weight: bold;
+    display: block;
+}
